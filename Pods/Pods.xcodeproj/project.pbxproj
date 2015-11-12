@@ -7,101 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05566F4EE8BD86DB9106DD2EC2E1FF2B /* UIColor+BButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB0A3D3CC9EB59CE7FB1B3DD29A0C04 /* UIColor+BButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F6AE42B703073F3794025B03F8DD556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
-		2824E35A09186558D883E27B9B9544FD /* BButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB0E95E2CB416BE38DAAA90BF21C418 /* BButton-dummy.m */; };
-		2AE7D0B98012908372DC548E11384906 /* BButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BC395F80948A0D5C7C86D845D9C336 /* BButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		312BFD39072BEA349EA1E35E98B6FD91 /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CB3864FB5ACECE5FF2C5E7C8CC8561 /* NSString+FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		326D75180EA37628670DCEA0D87B91E4 /* Pods-TravelingChildrenProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0B30F3097C352B8285B2FFB36A871 /* Pods-TravelingChildrenProject-dummy.m */; };
-		392B58E12CD20EF529D2D9921DB3C036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */; };
-		572FED71C25F3CB42F1D4557810CA9D2 /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D7FC119C1A0C20826EB863C6134B0D /* UIColor+BButton.m */; };
-		76B7258806CB8AA544B41D537904A858 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D35A26AD19D2888DA7095F606C6AECF /* NSString+FontAwesome.m */; };
-		785F7563C462867ACA5A68FD1ED5F0D4 /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B28E83AEF7E972BF8E9532320B301F /* BButton.m */; };
-		7884C81D584D6B8C181EB5E676F2532C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		44373C5104230BA1F58BA6F5E5A6B226 /* BKECircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CA1975CAB5E76E828027660418D038 /* BKECircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9F779CD70D00335EA44E3B9ABA05E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		758F7D0B0A0C8310426234ABA462C43D /* Pods-TravelingChildrenProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0B30F3097C352B8285B2FFB36A871 /* Pods-TravelingChildrenProject-dummy.m */; };
+		80CD17DC8B856BB5DC0C79ABB7AF4350 /* BKECircularProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF3666386CDC1CB51E9ABA921C2CD6 /* BKECircularProgressView-dummy.m */; };
+		978077823C2BC6163CA476BB6F75DC4B /* BKECircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E949F41302EF210AD60AB0E5CE3E7870 /* BKECircularProgressView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9EE4DA46B9138D48DBFCA953D1EA57E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		963619003D2DBB8610D58904673FB6A0 /* PBXContainerItemProxy */ = {
+		B644AC3D45E32A13B334645B87E9788E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 44F2F6CE60499BC357D00337F7D3E632;
-			remoteInfo = BButton;
+			remoteGlobalIDString = F013F23FC28A1655C04B430E9B204008;
+			remoteInfo = BKECircularProgressView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04E0B30F3097C352B8285B2FFB36A871 /* Pods-TravelingChildrenProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TravelingChildrenProject-dummy.m"; sourceTree = "<group>"; };
-		0AB0A3D3CC9EB59CE7FB1B3DD29A0C04 /* UIColor+BButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BButton.h"; path = "BButton/Classes/UIColor+BButton.h"; sourceTree = "<group>"; };
-		1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		15A570A2A8259AF1E457A3A5D71D6422 /* Pods-TravelingChildrenProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelingChildrenProject.release.xcconfig"; sourceTree = "<group>"; };
 		1A0CBD0CB0906F1F74E03B30F638AD94 /* Pods-TravelingChildrenProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TravelingChildrenProject-resources.sh"; sourceTree = "<group>"; };
 		1F490E7E2E9062CF6F967B9FE19722E5 /* Pods-TravelingChildrenProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TravelingChildrenProject-frameworks.sh"; sourceTree = "<group>"; };
-		1FE0D56043DF0FC17F7FDB3C79FBC4AD /* libBButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		23AD171BCB53DD4AA1C3647808FD2620 /* BButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BButton-prefix.pch"; sourceTree = "<group>"; };
 		2620CC80F936F3B8B576F5F97F7C42EF /* Pods-TravelingChildrenProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravelingChildrenProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		43CB3864FB5ACECE5FF2C5E7C8CC8561 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FontAwesome.h"; path = "BButton/Classes/NSString+FontAwesome.h"; sourceTree = "<group>"; };
-		54D7FC119C1A0C20826EB863C6134B0D /* UIColor+BButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BButton.m"; path = "BButton/Classes/UIColor+BButton.m"; sourceTree = "<group>"; };
-		5D35A26AD19D2888DA7095F606C6AECF /* NSString+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FontAwesome.m"; path = "BButton/Classes/NSString+FontAwesome.m"; sourceTree = "<group>"; };
-		6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74BC395F80948A0D5C7C86D845D9C336 /* BButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BButton.h; path = BButton/Classes/BButton.h; sourceTree = "<group>"; };
-		8FB0E95E2CB416BE38DAAA90BF21C418 /* BButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BButton-dummy.m"; sourceTree = "<group>"; };
-		9C718201D2681125B71F37706EF0E1CF /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = BButton/resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		32DEA1678E8C3BB352D9AFD029479BF1 /* BKECircularProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BKECircularProgressView-prefix.pch"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7752BD5424DE74E012C5FB9EC5D8DCE1 /* libBKECircularProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBKECircularProgressView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5F5150EFBC1DDCE2AFAD0640AEC139 /* libPods-TravelingChildrenProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelingChildrenProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEEB71BB70B97A00D60A382239A73F9 /* Pods-TravelingChildrenProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TravelingChildrenProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3B4C8066C6C41B769A1EAD8B3581859 /* libPods-TravelingChildrenProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelingChildrenProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CA1975CAB5E76E828027660418D038 /* BKECircularProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BKECircularProgressView.h; path = BKECircularProgressView/BKECircularProgressView.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C27B411B8941598772AC6CD67240619F /* BKECircularProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BKECircularProgressView.xcconfig; sourceTree = "<group>"; };
 		D94D8D6C4AFFF59A6AD747ECE9EDACC7 /* Pods-TravelingChildrenProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelingChildrenProject.debug.xcconfig"; sourceTree = "<group>"; };
-		F4B28E83AEF7E972BF8E9532320B301F /* BButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BButton.m; path = BButton/Classes/BButton.m; sourceTree = "<group>"; };
-		FD4293748C496AA58A8617EE1626CADD /* BButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BButton.xcconfig; sourceTree = "<group>"; };
+		E949F41302EF210AD60AB0E5CE3E7870 /* BKECircularProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BKECircularProgressView.m; path = BKECircularProgressView/BKECircularProgressView.m; sourceTree = "<group>"; };
+		FEDF3666386CDC1CB51E9ABA921C2CD6 /* BKECircularProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BKECircularProgressView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		943465DDBF5EE9CD4DB08F89543279B6 /* Frameworks */ = {
+		75C9C5DC1F332C2FC646476F3944336E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F6AE42B703073F3794025B03F8DD556 /* Foundation.framework in Frameworks */,
+				5A9F779CD70D00335EA44E3B9ABA05E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		981FF27A34D409416B476CF729821D66 /* Frameworks */ = {
+		F1F64D86D8E8D9980DE848EBB6018B29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392B58E12CD20EF529D2D9921DB3C036 /* CoreGraphics.framework in Frameworks */,
-				7884C81D584D6B8C181EB5E676F2532C /* Foundation.framework in Frameworks */,
+				9EE4DA46B9138D48DBFCA953D1EA57E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36C06A02A00144C64CD7282BA31846BD /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */,
-				6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				36C06A02A00144C64CD7282BA31846BD /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5767F802E666EC41D1B14A8ABD2011D1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1FE0D56043DF0FC17F7FDB3C79FBC4AD /* libBButton.a */,
-				B3B4C8066C6C41B769A1EAD8B3581859 /* libPods-TravelingChildrenProject.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		661096B3FA6230EC41C81CD9E3DDD75C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,23 +72,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6F8F814FB0B8801E443E458785539A60 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BBAF35FB20C96EA99B835576C944194E /* BButton */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				6F8F814FB0B8801E443E458785539A60 /* Pods */,
-				5767F802E666EC41D1B14A8ABD2011D1 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A0A34B2289A98617020F5C990DB53DF2 /* Pods */,
+				E6BFB286F86F81DDA78CA7A9A24717DC /* Products */,
 				661096B3FA6230EC41C81CD9E3DDD75C /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A0A34B2289A98617020F5C990DB53DF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA120329BCFE26D6F5DDBEA6F5D81AB2 /* BKECircularProgressView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		A6C2A43F6A883359449C1FD1556C8B78 /* Pods-TravelingChildrenProject */ = {
@@ -144,88 +106,98 @@
 			path = "Target Support Files/Pods-TravelingChildrenProject";
 			sourceTree = "<group>";
 		};
-		B4C01A0324581BA0D9371E7F275806ED /* Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD4293748C496AA58A8617EE1626CADD /* BButton.xcconfig */,
-				8FB0E95E2CB416BE38DAAA90BF21C418 /* BButton-dummy.m */,
-				23AD171BCB53DD4AA1C3647808FD2620 /* BButton-prefix.pch */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE917E37341FDA23C7DB97D0CA328BF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27B411B8941598772AC6CD67240619F /* BKECircularProgressView.xcconfig */,
+				FEDF3666386CDC1CB51E9ABA921C2CD6 /* BKECircularProgressView-dummy.m */,
+				32DEA1678E8C3BB352D9AFD029479BF1 /* BKECircularProgressView-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/BButton";
+			path = "../Target Support Files/BKECircularProgressView";
 			sourceTree = "<group>";
 		};
-		BBAF35FB20C96EA99B835576C944194E /* BButton */ = {
+		E6BFB286F86F81DDA78CA7A9A24717DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74BC395F80948A0D5C7C86D845D9C336 /* BButton.h */,
-				F4B28E83AEF7E972BF8E9532320B301F /* BButton.m */,
-				43CB3864FB5ACECE5FF2C5E7C8CC8561 /* NSString+FontAwesome.h */,
-				5D35A26AD19D2888DA7095F606C6AECF /* NSString+FontAwesome.m */,
-				0AB0A3D3CC9EB59CE7FB1B3DD29A0C04 /* UIColor+BButton.h */,
-				54D7FC119C1A0C20826EB863C6134B0D /* UIColor+BButton.m */,
-				E4C0FE84F4C6B329A86EB830F0D1502C /* Resources */,
-				B4C01A0324581BA0D9371E7F275806ED /* Support Files */,
+				7752BD5424DE74E012C5FB9EC5D8DCE1 /* libBKECircularProgressView.a */,
+				8C5F5150EFBC1DDCE2AFAD0640AEC139 /* libPods-TravelingChildrenProject.a */,
 			);
-			path = BButton;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E4C0FE84F4C6B329A86EB830F0D1502C /* Resources */ = {
+		FA120329BCFE26D6F5DDBEA6F5D81AB2 /* BKECircularProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				9C718201D2681125B71F37706EF0E1CF /* FontAwesome.ttf */,
+				A7CA1975CAB5E76E828027660418D038 /* BKECircularProgressView.h */,
+				E949F41302EF210AD60AB0E5CE3E7870 /* BKECircularProgressView.m */,
+				CE917E37341FDA23C7DB97D0CA328BF9 /* Support Files */,
 			);
-			name = Resources;
+			path = BKECircularProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		36634C15E56C6ACEEAC062867270FBDF /* Headers */ = {
+		9F2FDFB3F261F6EAED6F5FAE61770572 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE7D0B98012908372DC548E11384906 /* BButton.h in Headers */,
-				312BFD39072BEA349EA1E35E98B6FD91 /* NSString+FontAwesome.h in Headers */,
-				05566F4EE8BD86DB9106DD2EC2E1FF2B /* UIColor+BButton.h in Headers */,
+				44373C5104230BA1F58BA6F5E5A6B226 /* BKECircularProgressView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		44F2F6CE60499BC357D00337F7D3E632 /* BButton */ = {
+		A331235408CA575EBFECF57DE76CC158 /* Pods-TravelingChildrenProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF9EE8D1D95B23BD9D2C0BD9B0490CB0 /* Build configuration list for PBXNativeTarget "BButton" */;
+			buildConfigurationList = 0493A68D8A2F5DC7A85466F516FCD388 /* Build configuration list for PBXNativeTarget "Pods-TravelingChildrenProject" */;
 			buildPhases = (
-				E5E077D9DA94E2A25AEC17813EDD98BA /* Sources */,
-				981FF27A34D409416B476CF729821D66 /* Frameworks */,
-				36634C15E56C6ACEEAC062867270FBDF /* Headers */,
+				F2C7822DFDC6F8F3573B041A8CA61DB7 /* Sources */,
+				75C9C5DC1F332C2FC646476F3944336E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = BButton;
-			productName = BButton;
-			productReference = 1FE0D56043DF0FC17F7FDB3C79FBC4AD /* libBButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D14981DD226540B7FBA6544131CF4C20 /* Pods-TravelingChildrenProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 425BB2FFBAC744D076295A44B9A2B134 /* Build configuration list for PBXNativeTarget "Pods-TravelingChildrenProject" */;
-			buildPhases = (
-				2831FFE8A38B522D2F46E6F5BB6366B4 /* Sources */,
-				943465DDBF5EE9CD4DB08F89543279B6 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F62F39E303A98C6F5757AB5D8326D3B /* PBXTargetDependency */,
+				1070885E86964FDFA502556F2177A081 /* PBXTargetDependency */,
 			);
 			name = "Pods-TravelingChildrenProject";
 			productName = "Pods-TravelingChildrenProject";
-			productReference = B3B4C8066C6C41B769A1EAD8B3581859 /* libPods-TravelingChildrenProject.a */;
+			productReference = 8C5F5150EFBC1DDCE2AFAD0640AEC139 /* libPods-TravelingChildrenProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F013F23FC28A1655C04B430E9B204008 /* BKECircularProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A633EE3DE96BD245D4DA09BA40D5CD2E /* Build configuration list for PBXNativeTarget "BKECircularProgressView" */;
+			buildPhases = (
+				CA22625E0C2BC125629CA2CCE5B27D33 /* Sources */,
+				F1F64D86D8E8D9980DE848EBB6018B29 /* Frameworks */,
+				9F2FDFB3F261F6EAED6F5FAE61770572 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKECircularProgressView;
+			productName = BKECircularProgressView;
+			productReference = 7752BD5424DE74E012C5FB9EC5D8DCE1 /* libBKECircularProgressView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -245,83 +217,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5767F802E666EC41D1B14A8ABD2011D1 /* Products */;
+			productRefGroup = E6BFB286F86F81DDA78CA7A9A24717DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44F2F6CE60499BC357D00337F7D3E632 /* BButton */,
-				D14981DD226540B7FBA6544131CF4C20 /* Pods-TravelingChildrenProject */,
+				F013F23FC28A1655C04B430E9B204008 /* BKECircularProgressView */,
+				A331235408CA575EBFECF57DE76CC158 /* Pods-TravelingChildrenProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2831FFE8A38B522D2F46E6F5BB6366B4 /* Sources */ = {
+		CA22625E0C2BC125629CA2CCE5B27D33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326D75180EA37628670DCEA0D87B91E4 /* Pods-TravelingChildrenProject-dummy.m in Sources */,
+				80CD17DC8B856BB5DC0C79ABB7AF4350 /* BKECircularProgressView-dummy.m in Sources */,
+				978077823C2BC6163CA476BB6F75DC4B /* BKECircularProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5E077D9DA94E2A25AEC17813EDD98BA /* Sources */ = {
+		F2C7822DFDC6F8F3573B041A8CA61DB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2824E35A09186558D883E27B9B9544FD /* BButton-dummy.m in Sources */,
-				785F7563C462867ACA5A68FD1ED5F0D4 /* BButton.m in Sources */,
-				76B7258806CB8AA544B41D537904A858 /* NSString+FontAwesome.m in Sources */,
-				572FED71C25F3CB42F1D4557810CA9D2 /* UIColor+BButton.m in Sources */,
+				758F7D0B0A0C8310426234ABA462C43D /* Pods-TravelingChildrenProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F62F39E303A98C6F5757AB5D8326D3B /* PBXTargetDependency */ = {
+		1070885E86964FDFA502556F2177A081 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BButton;
-			target = 44F2F6CE60499BC357D00337F7D3E632 /* BButton */;
-			targetProxy = 963619003D2DBB8610D58904673FB6A0 /* PBXContainerItemProxy */;
+			name = BKECircularProgressView;
+			target = F013F23FC28A1655C04B430E9B204008 /* BKECircularProgressView */;
+			targetProxy = B644AC3D45E32A13B334645B87E9788E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0344178FBC083432BF7C78B85E7B8155 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD4293748C496AA58A8617EE1626CADD /* BButton.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BButton/BButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4E39E9578D00C0415D794D4EA3D88B07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D94D8D6C4AFFF59A6AD747ECE9EDACC7 /* Pods-TravelingChildrenProject.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -395,7 +330,43 @@
 			};
 			name = Release;
 		};
-		7FE5234F3B5AE037EEFDAF3237A81B21 /* Release */ = {
+		90F808C41CBDDFCD9E2CF7AECE4D8F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27B411B8941598772AC6CD67240619F /* BKECircularProgressView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BKECircularProgressView/BKECircularProgressView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99F78F0DCAE6A9C7F07EE40B1FE12C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27B411B8941598772AC6CD67240619F /* BKECircularProgressView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BKECircularProgressView/BKECircularProgressView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BDA11CDF1050222EF58ACDB7F5D276DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15A570A2A8259AF1E457A3A5D71D6422 /* Pods-TravelingChildrenProject.release.xcconfig */;
 			buildSettings = {
@@ -412,19 +383,18 @@
 			};
 			name = Release;
 		};
-		D6EBF99AF3D0662EB43342EC63D84251 /* Debug */ = {
+		EC153DE1973DC2BDE5139D5910CF0C8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD4293748C496AA58A8617EE1626CADD /* BButton.xcconfig */;
+			baseConfigurationReference = D94D8D6C4AFFF59A6AD747ECE9EDACC7 /* Pods-TravelingChildrenProject.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BButton/BButton-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -433,6 +403,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0493A68D8A2F5DC7A85466F516FCD388 /* Build configuration list for PBXNativeTarget "Pods-TravelingChildrenProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC153DE1973DC2BDE5139D5910CF0C8E /* Debug */,
+				BDA11CDF1050222EF58ACDB7F5D276DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -442,20 +421,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		425BB2FFBAC744D076295A44B9A2B134 /* Build configuration list for PBXNativeTarget "Pods-TravelingChildrenProject" */ = {
+		A633EE3DE96BD245D4DA09BA40D5CD2E /* Build configuration list for PBXNativeTarget "BKECircularProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E39E9578D00C0415D794D4EA3D88B07 /* Debug */,
-				7FE5234F3B5AE037EEFDAF3237A81B21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF9EE8D1D95B23BD9D2C0BD9B0490CB0 /* Build configuration list for PBXNativeTarget "BButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6EBF99AF3D0662EB43342EC63D84251 /* Debug */,
-				0344178FBC083432BF7C78B85E7B8155 /* Release */,
+				90F808C41CBDDFCD9E2CF7AECE4D8F43 /* Debug */,
+				99F78F0DCAE6A9C7F07EE40B1FE12C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15B38b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B38b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c4Q-Sm-V9y">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="b92-BM-IGm">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </imageView>
@@ -24,10 +24,10 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="c4Q-Sm-V9y" secondAttribute="bottom" id="5oM-2k-FK8"/>
-                            <constraint firstItem="c4Q-Sm-V9y" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="FKj-PY-M1F"/>
-                            <constraint firstItem="c4Q-Sm-V9y" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="aQR-MJ-vQd"/>
-                            <constraint firstAttribute="trailing" secondItem="c4Q-Sm-V9y" secondAttribute="trailing" id="zjR-x5-kXM"/>
+                            <constraint firstItem="b92-BM-IGm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="COv-un-sKx"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="b92-BM-IGm" secondAttribute="bottom" id="Ift-ff-KXM"/>
+                            <constraint firstAttribute="trailing" secondItem="b92-BM-IGm" secondAttribute="trailing" id="ZER-UV-Yfa"/>
+                            <constraint firstItem="b92-BM-IGm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ulZ-Oe-Gc7"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,4 +36,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="320" height="568"/>
+    </resources>
 </document>

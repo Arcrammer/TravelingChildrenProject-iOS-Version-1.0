@@ -12,7 +12,8 @@
 		111B1BD71BF27966002213D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111B1BD51BF27966002213D2 /* Main.storyboard */; };
 		111B1BD91BF27966002213D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111B1BD81BF27966002213D2 /* Assets.xcassets */; };
 		111B1BDC1BF27966002213D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111B1BDA1BF27966002213D2 /* LaunchScreen.storyboard */; };
-		F6DAC6F5287589911A0B4D7F /* libPods-TravelingChildrenProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A67726F33415F0952E26B44 /* libPods-TravelingChildrenProject.a */; };
+		116C64691BF544990052EE61 /* ARInterfaceComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C64681BF544990052EE61 /* ARInterfaceComponents.swift */; };
+		86D02E6CDAE8476DB00E6159 /* libPods-TravelingChildrenProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F41FC4F34515032E84A80 /* libPods-TravelingChildrenProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +24,9 @@
 		111B1BD81BF27966002213D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111B1BDB1BF27966002213D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111B1BDD1BF27966002213D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116C64681BF544990052EE61 /* ARInterfaceComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARInterfaceComponents.swift; sourceTree = "<group>"; };
+		3E0F41FC4F34515032E84A80 /* libPods-TravelingChildrenProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelingChildrenProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EAED3A06E5D71791DB7733 /* Pods-TravelingChildrenProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelingChildrenProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelingChildrenProject/Pods-TravelingChildrenProject.release.xcconfig"; sourceTree = "<group>"; };
-		8A67726F33415F0952E26B44 /* libPods-TravelingChildrenProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelingChildrenProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D2D60D59B0791BB6D910D8 /* Pods-TravelingChildrenProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelingChildrenProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelingChildrenProject/Pods-TravelingChildrenProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DAC6F5287589911A0B4D7F /* libPods-TravelingChildrenProject.a in Frameworks */,
+				86D02E6CDAE8476DB00E6159 /* libPods-TravelingChildrenProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +65,7 @@
 			children = (
 				111B1BD11BF27966002213D2 /* AppDelegate.swift */,
 				111B1BD31BF27966002213D2 /* ViewController.swift */,
+				116C64681BF544990052EE61 /* ARInterfaceComponents.swift */,
 				111B1BD51BF27966002213D2 /* Main.storyboard */,
 				111B1BD81BF27966002213D2 /* Assets.xcassets */,
 				111B1BDA1BF27966002213D2 /* LaunchScreen.storyboard */,
@@ -83,7 +86,7 @@
 		F4D1FB6E1A37B374F3FD70A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A67726F33415F0952E26B44 /* libPods-TravelingChildrenProject.a */,
+				3E0F41FC4F34515032E84A80 /* libPods-TravelingChildrenProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116C64691BF544990052EE61 /* ARInterfaceComponents.swift in Sources */,
 				111B1BD41BF27966002213D2 /* ViewController.swift in Sources */,
 				111B1BD21BF27966002213D2 /* AppDelegate.swift in Sources */,
 			);
@@ -274,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +348,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CDTDesign.TravelingChildrenProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = Pods;
 			};
 			name = Release;
 		};

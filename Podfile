@@ -4,5 +4,5 @@
 # use_frameworks!
 
 target 'TravelingChildrenProject' do
-  pod 'BButton'
+    pod 'BKECircularProgressView'
 end
