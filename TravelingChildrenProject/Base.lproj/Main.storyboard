@@ -248,7 +248,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="T8o-Ef-ogw" secondAttribute="bottom" id="IZw-X4-Y0i"/>
                             <constraint firstItem="Fq3-zh-WGZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jeh-mq-0Dc"/>
                             <constraint firstItem="Kdd-SB-Kap" firstAttribute="top" secondItem="ovC-xq-Bvn" secondAttribute="bottom" constant="8" id="P7A-6R-e3I"/>
-                            <constraint firstItem="Fq3-zh-WGZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" priority="999" constant="32" id="W2D-zh-vuF"/>
+                            <constraint firstItem="Fq3-zh-WGZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" priority="999" constant="48" id="W2D-zh-vuF">
+                                <variation key="heightClass=regular-widthClass=regular" constant="192"/>
+                            </constraint>
                             <constraint firstItem="T8o-Ef-ogw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y9i-C5-lcM"/>
                             <constraint firstItem="ovC-xq-Bvn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Fq3-zh-WGZ" secondAttribute="bottom" constant="16" id="aZP-p7-Gbu"/>
                             <constraint firstItem="T8o-Ef-ogw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eUu-Jj-ygg"/>
@@ -296,7 +298,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="H0x-Np-Cbz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="H0x-Np-Cbz">
                                 <rect key="frame" x="180" y="52" width="240" height="240"/>
                                 <animations/>
                                 <constraints>
@@ -333,12 +335,12 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="MVu-VM-6V2"/>
-                                                <exclude reference="VHF-xH-5ji"/>
                                                 <exclude reference="2wi-Jv-RNl"/>
+                                                <exclude reference="MVu-VM-6V2"/>
                                                 <exclude reference="PKa-0P-sh5"/>
-                                                <exclude reference="mrd-pI-kkb"/>
+                                                <exclude reference="VHF-xH-5ji"/>
                                                 <exclude reference="XsG-Vl-NlC"/>
+                                                <exclude reference="mrd-pI-kkb"/>
                                             </mask>
                                         </variation>
                                         <variation key="widthClass=compact">
@@ -350,9 +352,9 @@
                                         <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
                                             <rect key="frame" x="16" y="13" width="28" height="34"/>
                                             <mask key="constraints">
+                                                <include reference="2wi-Jv-RNl"/>
                                                 <exclude reference="MVu-VM-6V2"/>
                                                 <include reference="VHF-xH-5ji"/>
-                                                <include reference="2wi-Jv-RNl"/>
                                                 <exclude reference="mrd-pI-kkb"/>
                                             </mask>
                                         </variation>
@@ -360,10 +362,10 @@
                                             <mask key="constraints">
                                                 <exclude reference="MVu-VM-6V2"/>
                                                 <include reference="PKa-0P-sh5"/>
-                                                <exclude reference="ugg-Tb-tUV"/>
+                                                <include reference="XsG-Vl-NlC"/>
                                                 <exclude reference="mrd-pI-kkb"/>
                                                 <exclude reference="pGr-Ie-ZbV"/>
-                                                <include reference="XsG-Vl-NlC"/>
+                                                <exclude reference="ugg-Tb-tUV"/>
                                             </mask>
                                         </variation>
                                     </imageView>
@@ -383,16 +385,16 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="t1S-Xg-bow"/>
                                         <exclude reference="soP-kf-Jr1"/>
+                                        <exclude reference="t1S-Xg-bow"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <exclude reference="lda-ZM-wLk"/>
-                                        <include reference="t1S-Xg-bow"/>
                                         <exclude reference="86l-oj-yKK"/>
+                                        <exclude reference="lda-ZM-wLk"/>
                                         <include reference="soP-kf-Jr1"/>
+                                        <include reference="t1S-Xg-bow"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -419,8 +421,8 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="gTb-mE-qMZ"/>
                                                 <exclude reference="Jb6-ZE-Cbb"/>
+                                                <exclude reference="gTb-mE-qMZ"/>
                                             </mask>
                                         </variation>
                                         <variation key="widthClass=compact" misplaced="YES">
@@ -428,10 +430,10 @@
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="constraints">
-                                                <include reference="gTb-mE-qMZ"/>
                                                 <exclude reference="6pX-29-gTk"/>
-                                                <exclude reference="VdZ-1d-jhh"/>
                                                 <include reference="Jb6-ZE-Cbb"/>
+                                                <exclude reference="VdZ-1d-jhh"/>
+                                                <include reference="gTb-mE-qMZ"/>
                                             </mask>
                                         </variation>
                                     </imageView>
@@ -451,16 +453,16 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="qB2-u9-fDP"/>
                                         <exclude reference="4fG-OG-5Pe"/>
+                                        <exclude reference="qB2-u9-fDP"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="qB2-u9-fDP"/>
-                                        <exclude reference="QMg-Fa-PvT"/>
-                                        <exclude reference="szC-Yo-ps3"/>
                                         <include reference="4fG-OG-5Pe"/>
+                                        <exclude reference="QMg-Fa-PvT"/>
+                                        <include reference="qB2-u9-fDP"/>
+                                        <exclude reference="szC-Yo-ps3"/>
                                     </mask>
                                 </variation>
                             </view>
