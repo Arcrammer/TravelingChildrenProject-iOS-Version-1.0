@@ -16,9 +16,6 @@ class SigninViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        // Set the corner radius of the sign-in button
-        self.signinButton.setCornerRadius(25.0)
     }
 	
     override func didReceiveMemoryWarning() {

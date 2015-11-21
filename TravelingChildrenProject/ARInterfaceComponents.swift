@@ -20,7 +20,7 @@ class ARButton: UIButton {
         self.idleColour = self.backgroundColor
         
         // Round the button corners
-        self.layer.cornerRadius = 30
+        self.layer.cornerRadius = self.layer.frame.size.height * 0.5
         
         // Change the Border When Tapped
         addTarget(self, action: "drawActiveBorder", forControlEvents: UIControlEvents.TouchDown)
@@ -40,13 +40,5 @@ class ARButton: UIButton {
             // Fade the active colour away
             self.backgroundColor = self.idleColour
         })
-    }
-    
-    /**
-     Change the border radius
-     - parameter radius: Roundedness of the border
-     */
-    func setCornerRadius(radius: Float) {
-        self.layer.cornerRadius = CGFloat(radius)
     }
 }
