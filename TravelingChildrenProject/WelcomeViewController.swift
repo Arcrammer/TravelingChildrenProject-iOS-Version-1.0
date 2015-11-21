@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeViewController.swift
 //  TravelingChildrenProject
 //
 //  Created by Alexander Rhett Crammer on 11/10/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
     /* Methods */
     override func viewDidLoad() {
         super.viewDidLoad()

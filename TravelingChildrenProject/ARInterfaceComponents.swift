@@ -41,4 +41,12 @@ class ARButton: UIButton {
             self.backgroundColor = self.idleColour
         })
     }
+    
+    /**
+     Change the border radius
+     - parameter radius: Roundedness of the border
+     */
+    func setCornerRadius(radius: Float) {
+        self.layer.cornerRadius = CGFloat(radius)
+    }
 }

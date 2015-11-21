@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		111B1BD21BF27966002213D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B1BD11BF27966002213D2 /* AppDelegate.swift */; };
-		111B1BD41BF27966002213D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B1BD31BF27966002213D2 /* ViewController.swift */; };
+		111B1BD41BF27966002213D2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B1BD31BF27966002213D2 /* WelcomeViewController.swift */; };
 		111B1BD71BF27966002213D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111B1BD51BF27966002213D2 /* Main.storyboard */; };
 		111B1BD91BF27966002213D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111B1BD81BF27966002213D2 /* Assets.xcassets */; };
 		111B1BDC1BF27966002213D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111B1BDA1BF27966002213D2 /* LaunchScreen.storyboard */; };
+		11384E871BFFF07A004CE902 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11384E861BFFF07A004CE902 /* SigninViewController.swift */; };
 		116C64691BF544990052EE61 /* ARInterfaceComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C64681BF544990052EE61 /* ARInterfaceComponents.swift */; };
 		86D02E6CDAE8476DB00E6159 /* libPods-TravelingChildrenProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F41FC4F34515032E84A80 /* libPods-TravelingChildrenProject.a */; };
 /* End PBXBuildFile section */
@@ -19,11 +20,12 @@
 /* Begin PBXFileReference section */
 		111B1BCE1BF27966002213D2 /* TravelingChildrenProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelingChildrenProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		111B1BD11BF27966002213D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		111B1BD31BF27966002213D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		111B1BD31BF27966002213D2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		111B1BD61BF27966002213D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		111B1BD81BF27966002213D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111B1BDB1BF27966002213D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111B1BDD1BF27966002213D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11384E861BFFF07A004CE902 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		116C64681BF544990052EE61 /* ARInterfaceComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARInterfaceComponents.swift; sourceTree = "<group>"; };
 		3E0F41FC4F34515032E84A80 /* libPods-TravelingChildrenProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TravelingChildrenProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EAED3A06E5D71791DB7733 /* Pods-TravelingChildrenProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelingChildrenProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelingChildrenProject/Pods-TravelingChildrenProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				111B1BD11BF27966002213D2 /* AppDelegate.swift */,
-				111B1BD31BF27966002213D2 /* ViewController.swift */,
+				111B1BD31BF27966002213D2 /* WelcomeViewController.swift */,
+				11384E861BFFF07A004CE902 /* SigninViewController.swift */,
 				116C64681BF544990052EE61 /* ARInterfaceComponents.swift */,
 				111B1BD51BF27966002213D2 /* Main.storyboard */,
 				111B1BD81BF27966002213D2 /* Assets.xcassets */,
@@ -214,8 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11384E871BFFF07A004CE902 /* SigninViewController.swift in Sources */,
 				116C64691BF544990052EE61 /* ARInterfaceComponents.swift in Sources */,
-				111B1BD41BF27966002213D2 /* ViewController.swift in Sources */,
+				111B1BD41BF27966002213D2 /* WelcomeViewController.swift in Sources */,
 				111B1BD21BF27966002213D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
