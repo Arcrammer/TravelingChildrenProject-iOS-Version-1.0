@@ -11,7 +11,7 @@ import UIKit
 class ARButton: UIButton {
     /* Properties */
     var idleColour: UIColor?
-    let tapColour = UIColor.orangeColor()
+    let tapColour = UIColor.orange
     
     required init!(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -23,9 +23,9 @@ class ARButton: UIButton {
         self.layer.cornerRadius = self.layer.frame.size.height * 0.5
         
         // Change the Border When Tapped
-        addTarget(self, action: "drawActiveBorder", forControlEvents: UIControlEvents.TouchDown)
-        addTarget(self, action: "drawInactiveBorder", forControlEvents: UIControlEvents.TouchUpInside)
-        addTarget(self, action: "drawInactiveBorder", forControlEvents: UIControlEvents.TouchUpOutside)
+        addTarget(self, action: #selector(ARButton.drawActiveBorder), for: UIControlEvents.touchDown)
+        addTarget(self, action: #selector(ARButton.drawInactiveBorder), for: UIControlEvents.touchUpInside)
+        addTarget(self, action: #selector(ARButton.drawInactiveBorder), for: UIControlEvents.touchUpOutside)
     }
     
     func drawActiveBorder() {
@@ -34,7 +34,7 @@ class ARButton: UIButton {
     }
     
     func drawInactiveBorder() {
-        UIView.animateWithDuration(0.250, animations: {
+        UIView.animate(withDuration: 0.250, animations: {
             () -> Void in
             
             // Fade the active colour away

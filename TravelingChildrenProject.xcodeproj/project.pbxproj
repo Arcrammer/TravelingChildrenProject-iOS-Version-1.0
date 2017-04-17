@@ -130,6 +130,7 @@
 					111B1BCD1BF27966002213D2 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 63B57N68Z8;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -339,6 +340,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CDTDesign.TravelingChildrenProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -352,6 +354,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CDTDesign.TravelingChildrenProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = Pods;
 			};
 			name = Release;
